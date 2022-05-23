@@ -1,0 +1,26 @@
+GET http://localhost:3000/api
+
+###
+
+
+GET http://localhost:3000/api/628b683a05904c39817d7c9f
+
+###
+
+POST  http://localhost:3000/api
+Content-Type: application/json
+
+{
+    "name": "wahyu"
+}
+
+###
+PATCH  http://localhost:3000/api/628b683a05904c39817d7c9f
+Content-Type: application/json
+
+{
+    "name": "gunawan"
+}
+
+###
+DELETE http://localhost:3000/api/628b683a05904c39817d7c9f
